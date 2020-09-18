@@ -1,5 +1,11 @@
 # 연결 리스트(Linked List)
 
+_Read this in other languages:_
+[_简体中文_](README.zh-CN.md),
+[_Русский_](README.ru-RU.md),
+[_日本語_](README.ja-JP.md),
+[_Português_](README.pt-BR.md)
+
 컴퓨터 과학에서 **연결 리스트**는 데이터 요소의 선형 콜렉션입니다. 요소의 순번은 메모리 안의 물리적인 배치에 의해 정해지는 것은 아닙니다. 대신 각 요소가 다음 요소를 가리키고 있습니다. 연결 리스트는 노드의 그룹으로 이루어진 데이터 구조입니다. 가장 단순한 형식으로는, 각 노드는 데이터와 시퀀스 내에서 다음 노드에 대한 참조(즉, Link)로 구성되어 있습니다. 이 구조는 이터레이션에서 임의의 위치에 요소를 효율적으로 삽입, 삭제를 가능하게 합니다. 더욱 복잡한 연결 리스트에서는 링크를 더 많이 추가하여 임의의 요소의 참조로부터 요소를 효율적으로 삽입, 삭제가 가능하게 하고 있습니다. 연결 리스트의 단점은 액세스타임이 선형(그리고 파이프라인 처리가 어려움)인 것입니다. 랜덤 액세스와 같은 고속 액세스는 실현 불가능합니다. 배열이 연결 리스트와 비교해서 캐쉬의 지역성이 더 뛰어납니다.
 
 ![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
@@ -88,7 +94,7 @@ Remove(head, value)
 end Remove
 ```
 
-### 순회
+### 순회(Traverse)
 
 ```text
 Traverse(head)
@@ -102,7 +108,7 @@ Traverse(head)
 end Traverse
 ```
 
-### 역순회
+### 역순회(Traverse in Reverse)
 
 ```text
 ReverseTraversal(head, tail)
